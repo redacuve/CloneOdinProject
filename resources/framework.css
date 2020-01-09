@@ -4,6 +4,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 .d-flex {
@@ -40,6 +41,46 @@
 
 .justify-content-around {
   justify-content: space-around;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-5px {
+  padding: 5px;
+}
+
+.p-10px {
+  padding: 10px;
+}
+
+.px-0 {
+  padding: 0;
+}
+
+.px-5px {
+  padding: 0 5px;
+}
+
+.px-10px {
+  padding: 0 10px;
 }
 
 .col, .col-12 {
