@@ -87,6 +87,17 @@
   padding: 0 10px;
 }
 
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .col, .col-12 {
   max-width: 100%;
 }
