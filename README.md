@@ -1,11 +1,10 @@
-# CloneOdinProject
-This is a clone of the index page of https://www.theodinproject.com/
-
 <h1 align="center">THE ODIN PROJECT (clone) + Our Very Own Framework</h1>
 
 <h3 align="center">The 8th and final project for HTML & CSS3 Course. Microverse</h3>
 
-<h5>All that we see or seem is but a div within a div</h5>
+<h5 align="center">All that we see or seem is but a div within a div</h5>
+
+<p align="center">LIVE LINK: https://raw.githack.com/redacuve/CloneOdinProject/front-page/index.html </p>
 
 
 ## Table of Contents
