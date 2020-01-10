@@ -10,6 +10,11 @@ header img {
   width: 250px;
 }
 
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .width200 {
   width: 200px;
 }
@@ -89,6 +94,64 @@ nav i {
   max-width: 600px;
 }
 
+.learn-e h2 {
+  padding-bottom: 50px;
+}
+
+.learn-e img {
+  width: 100%;
+}
+
+.learn-e .col-12 {
+  padding: 10px 100px;
+}
+
+.learn-e button {
+  background-color: #cc9543;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+
+.success h2 {
+  padding-bottom: 50px;
+}
+
+.success img {
+  border-radius: 50%;
+  padding: 20px;
+  width: 100%;
+}
+
+.success h4, .success p {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.readmore {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 65px 0;
+  text-decoration: underline;
+}
+
+.startnow p {
+  font-size: 3rem;
+  padding-bottom: 65px;
+}
+
+.startnow button {
+  background-color: #6abfc3;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+}
+
 @media (max-width: 720px) {
   .leftpad {
     padding-left: 0;
@@ -107,6 +170,10 @@ nav i {
     min-height: 77px;
   }
 
+  .works-container {
+    padding-bottom: 40px;
+  }
+
 }
 
 @media (min-width: 721px) {
@@ -120,6 +187,10 @@ nav i {
 
   .minheight {
     min-height: 277px;
+  }
+
+  .works-container {
+    padding-bottom: 70px;
   }
 }
 
