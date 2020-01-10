@@ -15,6 +15,32 @@ main {
   margin: 0 auto;
 }
 
+.commentbox {
+  background: #6abfc3;
+  border-radius: 50%;
+  bottom: 15px;
+  font-size: 2em;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+}
+
+.commentbox i {
+  color: white;
+}
+
+.commentbox:hover {
+  box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+}
+
+.bg-whitesmoke {
+  background: whitesmoke;
+}
+
+.bg-gradient1 {
+  background: linear-gradient(to bottom, white, #eee);
+}
+
 .width200 {
   width: 200px;
 }
@@ -136,6 +162,10 @@ nav i {
   font-size: 1.3rem;
   padding: 65px 0;
   text-decoration: underline;
+}
+
+.startnow {
+  padding-bottom: 40px;
 }
 
 .startnow p {
