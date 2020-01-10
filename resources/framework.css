@@ -142,7 +142,7 @@
   width: 91.666%;
 }
 
-@media (max-width: 720px) {
+@media (min-width: 576px) {
  .col-sm-12 {
     width: 100%;
   }

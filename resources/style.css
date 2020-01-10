@@ -18,16 +18,20 @@ header img {
   color: #cc9543;
 }
 
+.fc-gold2 {
+  color: #cc9543;
+}
+
+.fc-gold2:hover {
+  color: black;
+}
+
 .fc-grayish {
   color: rgba(74,74,74,0.7)
 }
 
 .fc-black {
   color: black;
-}
-
-.minheight {
-  min-height: 277px;
 }
 
 .fontsize24 {
@@ -85,8 +89,42 @@ nav i {
   max-width: 600px;
 }
 
+@media (max-width: 720px) {
+  .leftpad {
+    padding-left: 0;
+  }
+
+  .lilcenter {
+    text-align: center;
+  }
+
+  .goodspacing {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .minheight {
+    min-height: 77px;
+  }
+
+}
+
 @media (min-width: 721px) {
   .howworks .img-container {
     min-height: 190px;
+  }
+
+  .leftpad {
+    padding-left: 40px;
+  }
+
+  .minheight {
+    min-height: 277px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .leftpad {
+    padding-left: 60px;
   }
 }
