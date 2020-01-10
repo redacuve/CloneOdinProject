@@ -142,7 +142,7 @@
   max-width: 91.666%;
 }
 
-@media (max-max-width: 720px) {
+@media (max-width: 720px) {
  .col-sm-12 {
     max-width: 100%;
   }
@@ -204,7 +204,7 @@
   }
 }
 
-@media (min-max-width: 721px) and (max-max-width: 1024px) {
+@media (min-width: 721px) and (max-width: 1024px) {
   .col-md-12 {
     max-width: 100%;
   }
@@ -266,7 +266,7 @@
   }
 }
 
-@media(min-max-width: 1025px) {
+@media(min-width: 1025px) {
   .col-lg-12 {
     max-width: 100%;
   }
