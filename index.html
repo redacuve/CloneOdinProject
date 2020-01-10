@@ -16,7 +16,7 @@
     <header>
         <nav class="d-flex justify-content-around align-items-center">
             <img src="resources/logo.png" alt=logo>
-            <ul class="d-flex justify-content-between">
+            <ul class="d-md-flex justify-content-between font-bold d-none">
                 <li class="p-5px"><a href="#">Curriculum</a></li>
                 <li class="p-5px"><a href="#">Community ▼</a></li>
                 <li class="p-5px"><a href="#">About</a></li>
@@ -25,12 +25,13 @@
                 <li class="p-5px"><a href="#">Sign Up!</a></li>
                 <li class="p-5px"><a href="#">Log In</a></li>
             </ul>
+            <div class="d-block d-md-none"><i class="fas fa-bars"></i></div>
         </nav>
     </header>
 
-    <div>
-        <!--YOUR CARREER-->
-        <h1>Your Career in Web Development Starts Here</h1>
+    <div class="your-career text-align-center">
+        <!--YOUR CAREER-->
+        <h1 class="fc-gold font-light">Your Career in Web Development Starts Here</h1>
         <p>Our full stack curriculum is free and supported by a passionate open source community.</p>
         <button type="button">View Full Curriculum</button>
     </div>
@@ -40,135 +41,147 @@
         <img src="resources/isometric-image.svg" alt="Big isometric image">
     </div>
 
-    <div>
+    <div class="howworks">
         <!--HOW IT WORKS-->
-        <div>
-            <h2>How it works</h2>
+        <div class="text-align-center works-text">
+            <h2 class="fc-black">How it works</h2>
             <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for
                 only the best resources to supplement your learning and present them in a logical order.</p>
         </div>
+        <div class="container">
 
-        <div>
-            <div>
-                <img src="resources/img-learn.svg" alt="logo learn">
-                <h4>Learn</h4>
-                <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
-            </div>
-            <div>
-                <img src="resources/img-build.svg" alt="logo build">
-                <h4>Build</h4>
-                <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and
-                    deployed websites.</p>
-            </div>
-            <div>
-                <img src="resources/img-connect.svg" alt="logo connect">
-                <h4>Connect</h4>
-                <p>You’re not alone. Learn and get help from our friendly community of beginner and experienced
-                    developers.</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 text-align-center">
+                    <div class="img-container">
+                        <img src="resources/img-learn.svg" alt="logo learn">
+                    </div>
+                    <h4>Learn</h4>
+                    <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 text-align-center">
+                    <div class="img-container">
+                        <img src="resources/img-build.svg" alt="logo build">
+                    </div>
+                    <h4>Build</h4>
+                    <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and
+                        deployed websites.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 text-align-center">
+                    <div class="img-container">
+                        <img src="resources/img-connect.svg" alt="logo connect">
+                    </div>
+                    <h4>Connect</h4>
+                    <p>You’re not alone. Learn and get help from our friendly community of beginner and experienced
+                        developers.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div>
+    <div class="contaianer text-align-center">
         <!--LEARN EVERYTHING-->
 
         <h2>Learn everything you need to know to become a web developer</h2>
+        <div class="row  justify-content-center">
 
-        <div>
-            <img src="resources/badge-html-css.svg" alt="HTML!">
-            <h4>HTML + CSS</h4>
-        </div>
-        <div>
-            <img src="resources/badge-javascript.svg" alt="Javascript">
-            <h4>JAVASCRIPT</h4>
-        </div>
-        <div>
-            <img src="resources/badge-git.svg" alt="Git">
-            <h4>GIT</h4>
-        </div>
-        <div>
-            <img src="resources/badge-database.svg" alt="Database">
-            <h4>DATABASE</h4>
-        </div>
-        <div>
-            <img src="resources/badge-ruby.svg" alt="Ruby">
-            <h4>RUBY</h4>
-        </div>
-        <div>
-            <img src="resources/badge-ruby-on-rails.svg" alt="Ruby On Rails">
-            <h4>RUBY ON RAILS</h4>
-        </div>
-        <div>
-            <img src="resources/badge-nodejs.svg" alt="Node JS">
-            <h4>NODEJS</h4>
-        </div>
-        <div>
-            <img src="resources/badge-getting-hired.svg" alt="Getting Hired">
-            <h4>GETTING HIRED</h4>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-html-css.svg" alt="HTML!">
+                <h4>HTML + CSS</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-javascript.svg" alt="Javascript">
+                <h4>JAVASCRIPT</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-git.svg" alt="Git">
+                <h4>GIT</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-database.svg" alt="Database">
+                <h4>DATABASE</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-ruby.svg" alt="Ruby">
+                <h4>RUBY</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-ruby-on-rails.svg" alt="Ruby On Rails">
+                <h4>RUBY ON RAILS</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-nodejs.svg" alt="Node JS">
+                <h4>NODEJS</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="resources/badge-getting-hired.svg" alt="Getting Hired">
+                <h4>GETTING HIRED</h4>
+            </div>
         </div>
 
         <button>Getting Started</button>
     </div>
 
-    <div>
+    <div class="container text-align-center">
         <!--SUCESS HISTORIES-->
 
         <h2>Success Stories</h2>
 
-        <div>
-            <div>
-                <img src="resources/rob_pando.jpg" alt="Rob Pando">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <div>
+                    <img src="resources/rob_pando.jpg" alt="Rob Pando">
+                </div>
+    
+                <h4>Rob Pando</h4>
+    
+                <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually
+                    forcing me to figure it out on my own, by pointing me...</p>
             </div>
-
-            <h4>Rob Pando</h4>
-
-            <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually
-                forcing me to figure it out on my own, by pointing me...</p>
-        </div>
-
-        <div>
-            <div>
-                <img src="resources/olivia.jpg" alt="Olivia">
+    
+            <div class="col-sm-12 col-lg-6">
+                <div>
+                    <img src="resources/olivia.jpg" alt="Olivia">
+                </div>
+    
+                <h4>Olivia</h4>
+    
+                <p>Before I found TOP, I was jumping from Coursera course to Coursera course without really any guidance or
+                    community. I wanted to get a real development job and not operating...</p>
             </div>
-
-            <h4>Olivia</h4>
-
-            <p>Before I found TOP, I was jumping from Coursera course to Coursera course without really any guidance or
-                community. I wanted to get a real development job and not operating...</p>
-        </div>
-
-        <div>
-
-            <div>
-                <img src="resources/cody_loyd.jpg" alt="Cody Loyd">
+    
+            <div class="col-sm-12 col-lg-6">
+    
+                <div>
+                    <img src="resources/cody_loyd.jpg" alt="Cody Loyd">
+                </div>
+    
+                <h4>Cody Loyd</h4>
+    
+                <p>
+                    Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a
+                    year of working through the program, I was offered a job as a front...
+                </p>
             </div>
-
-            <h4>Cody Loyd</h4>
-
-            <p>
-                Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a
-                year of working through the program, I was offered a job as a front...
-            </p>
-        </div>
-
-        <div>
-            <div>
-                <img src="resources/william_kennedy.jpg" alt="William Kennedy">
+    
+            <div class="col-sm-12 col-lg-6">
+                <div>
+                    <img src="resources/william_kennedy.jpg" alt="William Kennedy">
+                </div>
+    
+                <h4>William Kennedy</h4>
+    
+                <p>
+                    The Odin Project changed my life and that is not an understatement. In November 2013, I made a
+                    commitment to myself to become a self-taught developer so I threw myself...
+                </p>
             </div>
-
-            <h4>William Kennedy</h4>
-
-            <p>
-                The Odin Project changed my life and that is not an understatement. In November 2013, I made a
-                commitment to myself to become a self-taught developer so I threw myself...
-            </p>
         </div>
 
         <a href="#">Read more success stories</a>
 
     </div>
 
-    <div>
+    <div class="text-align-center">
         <!--START NOW-->
 
         <p>Start learning for free now!</p>
