@@ -1,3 +1,28 @@
+/* * {
+  border: 1px solid red;
+} */
+
+
 header img {
   width: 250px;
+}
+
+.width200 {
+  width: 200px;
+}
+
+.fc-gold {
+  color: #cc9543;
+}
+
+.fc-grayish {
+  color: rgba(74,74,74,0.7)
+}
+
+.minheight {
+  min-height: 277px;
+}
+
+.fontsize24 {
+  font-size: 24px;
 }
