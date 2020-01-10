@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
 * {
-  /* border: 1px solid red; */
   font-family: 'Roboto', sans-serif;
-  color: rgba(74,74,74,0.7);
+  color: rgba(74, 74, 74, 0.7);
 }
 
 header img {
@@ -25,12 +24,16 @@ main {
   right: 15px;
 }
 
+nav i {
+  font-size: 30px;
+}
+
 .commentbox i {
   color: white;
 }
 
 .commentbox:hover {
-  box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.2);
 }
 
 .bg-whitesmoke {
@@ -58,7 +61,7 @@ main {
 }
 
 .fc-grayish {
-  color: rgba(74,74,74,0.7)
+  color: rgba(74, 74, 74, 0.7);
 }
 
 .fc-black {
@@ -79,10 +82,6 @@ main {
 
 .font-bold {
   font-weight: 700;
-}
-
-nav i {
-  font-size: 30px;
 }
 
 .your-career {
@@ -152,7 +151,8 @@ nav i {
   width: 100%;
 }
 
-.success h4, .success p {
+.success h4,
+.success p {
   line-height: 1.5rem;
   text-align: left;
 }
@@ -203,7 +203,6 @@ nav i {
   .works-container {
     padding-bottom: 40px;
   }
-
 }
 
 @media (min-width: 721px) {
