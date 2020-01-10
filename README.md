@@ -2,7 +2,7 @@
 
 <h3 align="center">The 8th and final project for HTML & CSS3 Course. Microverse</h3>
 
-<h5 align="center">All that we see or seem is but a div within a div</h5>
+<h5 align="center"><q>All that we see or seem is but a div within a div</q></h5>
 
 <p align="center">LIVE LINK: https://raw.githack.com/redacuve/CloneOdinProject/front-page/index.html </p>
 
