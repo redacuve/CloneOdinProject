@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+header img {
+  width: 250px;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.commentbox {
+  background: #6abfc3;
+  border-radius: 50%;
+  bottom: 15px;
+  font-size: 2em;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+}
+
+nav i {
+  font-size: 30px;
+}
+
+.commentbox i {
+  color: white;
+}
+
+.commentbox:hover {
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bg-whitesmoke {
+  background: whitesmoke;
+}
+
+.bg-gradient1 {
+  background: linear-gradient(to bottom, white, #eee);
+}
+
+.width200 {
+  width: 200px;
+}
+
+.fc-gold {
+  color: #cc9543;
+}
+
+.fc-gold2 {
+  color: #cc9543;
+}
+
+.fc-gold2:hover {
+  color: black;
+}
+
+.fc-grayish {
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.fc-black {
+  color: black;
+}
+
+.fontsize24 {
+  font-size: 24px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.your-career {
+  padding: 40px 0;
+}
+
+.your-career h1 {
+  padding-bottom: 20px;
+}
+
+.your-career p {
+  padding-bottom: 50px;
+}
+
+.your-career button {
+  background-color: #6abfc3;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+}
+
+.howworks {
+  padding-top: 50px;
+}
+
+.howworks h2 {
+  padding-bottom: 25px;
+}
+
+.works-text {
+  line-height: 1.5rem;
+  margin: 0 auto 80px;
+  max-width: 600px;
+}
+
+.learn-e h2 {
+  padding-bottom: 50px;
+}
+
+.learn-e img {
+  width: 60%;
+}
+
+.learn-e .col-12 {
+  padding: 10px 100px;
+}
+
+.learn-e button {
+  background-color: #cc9543;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+
+.success h2 {
+  padding-bottom: 50px;
+}
+
+.success img {
+  border-radius: 50%;
+  padding: 20px;
+  width: 100%;
+}
+
+.success h4,
+.success p {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.readmore {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 65px 0;
+  text-decoration: underline;
+}
+
+.startnow {
+  padding-bottom: 40px;
+}
+
+.startnow p {
+  font-size: 3rem;
+  padding-bottom: 65px;
+}
+
+.startnow button {
+  background-color: #6abfc3;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+}
+
+@media (max-width: 720px) {
+  .leftpad {
+    padding-left: 0;
+  }
+
+  .lilcenter {
+    text-align: center;
+  }
+
+  .goodspacing {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .minheight {
+    min-height: 77px;
+  }
+
+  .works-container {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 721px) {
+  .howworks .img-container {
+    min-height: 190px;
+  }
+
+  .leftpad {
+    padding-left: 40px;
+  }
+
+  .minheight {
+    min-height: 277px;
+  }
+
+  .works-container {
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .leftpad {
+    padding-left: 60px;
+  }
+}
